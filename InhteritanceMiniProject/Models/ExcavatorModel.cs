@@ -17,7 +17,7 @@ namespace InheritanceMiniProject
 
         public void ReturnRental()
         {
-            QuantityInStock -= 1;
+            QuantityInStock += 1;
             Console.WriteLine("Excavator has been returned");
         }
     }
